@@ -1,6 +1,6 @@
 import React from "react";
 
-function Blog({ recipe }) {
+function Recipes({ recipe }) {
   return (
     <div className="card">
       <h1>{recipe.title}</h1>
@@ -10,4 +10,4 @@ function Blog({ recipe }) {
   );
 }
 
-export default Blog;
+export default Recipes;
